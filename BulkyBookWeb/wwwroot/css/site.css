@@ -1,0 +1,47 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+#navBar14 {
+    color: white;
+}
+#navBar14:hover {
+        color: #bc5350;
+    }
+
+#navBar15 {
+    color: white;
+}
+
+#navBar15:hover {
+color: #bc5350;
+}
+
+.truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.orangeEdit {
+    background-color: #2596be;
+}
+
